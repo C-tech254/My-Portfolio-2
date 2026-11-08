@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Mwaniki Charles, a third-year Computer Science student at Chuka University.">
     <title>Mwaniki Charles | Portfolio</title>
 </head>
 <body>
@@ -10,7 +11,7 @@
         <header id="top">
         <h1>Mwaniki Charles</h1>
         <figure>
-    <img src="profile.jpg" alt="A man wearing glasses" width="200" height="200">
+    <img src="profile.jpg" alt="Portrait of Charles Mwaniki, wearing glasses" width="200" height="200">
     <figcaption>Charles, third-year Computer Science student</figcaption>
 </figure>
         <nav>
@@ -23,10 +24,20 @@
     </header>
 
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a third-year Computer Science Student focused on web development and software engineering with a passion for creating innovative solutions and learning new technologies.</p>
-      <details>
+      <section id="about">
+    <h2>About Me</h2>
+    <p>
+        I'm a third-year Computer Science student at Chuka University, and I build websites
+        for real clients. My two freelance projects taught me that good code only matters
+        when it helps someone run their business or reach their customers.
+    </p>
+    <p>
+        I'm now looking for an internship or attachment where I can learn from a team
+        and grow into a full software developer. It's a long way from the village where
+        I grew up, and the story of how I got here is below.
+    </p>
+
+    <details>
     <summary>How did a village boy end up writing code?</summary>
     <p>
         Where I grew up, the nearest thing to a computer was a rumour.
@@ -41,6 +52,8 @@
         and he is nowhere near done learning.
     </p>
 </details>
+</section>
+    
 
         </section>
     
@@ -126,10 +139,28 @@
             <li>WhatsApp: <a href="https://wa.me/254706698762" target="_blank" rel="noopener noreferrer">Message me on WhatsApp</a></li>
             <li>GitHub: <a href="https://github.com/C-tech254" target="_blank" rel="noopener noreferrer">github.com/C-tech254</a></li>
         </ul>
+        <h3>Send me a message</h3>
+
+<form action="mailto:charlesbigmind@gmail.com" method="post" enctype="text/plain">
+    <p>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+    </p>
+    <p>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+    </p>
+    <p>
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+    </p>
+    <button type="submit">Send message</button>
+</form>
+
         </section>
     </main> 
     <footer>
-    <p><a href="top">Back to Top</a></p>
+    <p><a href="#top">Back to Top</a></p>
     <p>&copy; 2026 Mwaniki Charles. All rights reserved.</p>
 </footer>
 </body>
